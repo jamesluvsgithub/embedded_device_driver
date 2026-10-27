@@ -8,7 +8,7 @@ An example program `level.cpp` is included in this repository. It detects tilt w
 
 This directory contains:
 - A *src* directory, containing all the source code.
-- `CMakeLists.txt` and `pico_sdk_import.cmake`. These are used for building source code.
+- `CMakeLists.txt` and `pico_sdk_import.cmake`. These are used for building the source code.
 - **IMPORTANT**: While it is not included in this repository, it is required to have the *pico-sdk* repository in the root (*embedded_driver*) directory.
 
 ## Prerequisites

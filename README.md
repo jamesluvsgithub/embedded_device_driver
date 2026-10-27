@@ -30,4 +30,4 @@ This directory contains:
 
 6) Run `make` to produce the required files. We are interested in `level.uf2` in particular.
 7) Start the Feather RP2040 in BOOTSEL mode.
-8) Drop `level.uf2` (or any executable) into the *RPI-RP2* drive. The Feather RP2040 will begin executing automatically.
+8) Drop `level.uf2` (or any executable) into the *RPI-RP2* drive. The system will begin execution automatically.

@@ -12,8 +12,8 @@ This directory contains:
 - **IMPORTANT**: While it is not included in this repository, it is required to have the *pico-sdk* repository in the root (*embedded_driver*) directory.
 
 ## Prerequisites
-- Linux or Windows with WSL
-- *pico-sdk* in the root directory
+- Linux or Windows with WSL.
+- *pico-sdk* in the root directory.
 
 ## Building & Loading
 

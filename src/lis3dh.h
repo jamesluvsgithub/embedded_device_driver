@@ -46,7 +46,7 @@ public:
     LIS3DH(void);
 
     /**
-     * @brief Initializes the accelerometer.
+     * @brief Initializes the accelerometer to send measurements over I2C.
      *
      * @return true: Initialization successful.
      * @return false: Initialization failed.

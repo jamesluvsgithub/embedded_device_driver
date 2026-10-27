@@ -1,15 +1,21 @@
 # Embedded Driver
 
+This driver integrates the LIS3DH accelerometer and NeoMatrix LED board with the Adafruit Feather RP2040. The Feather RP2040 is based off of the Raspberry Pi Pico. The LIS3DH driver intializes the device to send measurements over I2C. The NeoMatrix driver powers and initializes the NeoMatrix board to receive and display pixel values. 
+
+An example program `level.cpp` is included in this repository. It detects tilt with the accelerometer and turns on a red LED on the NeoMatrix that corresponds to the angle of the tilt. If there is no tilt, then the four center LEDs will display a green hue.
+
 ## Directory Structure
 
-This directory follows the structure given in the lab assignment. It contains:
+This directory contains:
 - A *src* directory, containing all the source code.
 - `CMakeLists.txt` and `pico_sdk_import.cmake`. These are used for building source code.
-- **IMPORTANT**: While it is not included, it is required to have the *pico-sdk* repository in the root (*embedded_driver*) directory.
+- **IMPORTANT**: While it is not included in this repository, it is required to have the *pico-sdk* repository in the root (*embedded_driver*) directory.
+
+## Prerequisites
+- Linux or Windows with WSL
+- *pico-sdk* in the root directory
 
 ## Building & Loading
-
-This project uses the same build and load process as specified by the lab assignment.
 
 1) Start from the *embedded_driver* root directory.
 2) Clone *pico-sdk* to the root directory. 
